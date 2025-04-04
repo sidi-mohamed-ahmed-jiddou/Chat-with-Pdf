@@ -23,6 +23,12 @@ créer des embeddings vectoriels et configurer une chaîne de récupération con
 - FAISS
 - dotenv
 
+  ### Modifications clés :
+- **Création de la clé API Groq** : J'ai ajouté une note importante concernant la création d'un compte sur Groq pour obtenir une clé API,
+- nécessaire pour utiliser le modèle Llama via l'API.
+  
+Ainsi, vos utilisateurs sauront qu'ils doivent s'inscrire sur Groq et ajouter leur clé API dans le fichier `.env` pour utiliser le modèle Llama.
+
 ## Installation
 
 1. Clonez le dépôt :
@@ -31,8 +37,3 @@ créer des embeddings vectoriels et configurer une chaîne de récupération con
 git clone https://github.com/sidi-mohamed-ahmed-jiddou/chat-with-pdf.git
 cd chat-with-pdf
 
-### Modifications clés :
-- **Création de la clé API Groq** : J'ai ajouté une note importante concernant la création d'un compte sur Groq pour obtenir une clé API,
-- nécessaire pour utiliser le modèle Llama via l'API.
-  
-Ainsi, vos utilisateurs sauront qu'ils doivent s'inscrire sur Groq et ajouter leur clé API dans le fichier `.env` pour utiliser le modèle Llama.
